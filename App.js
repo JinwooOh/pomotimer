@@ -7,14 +7,14 @@ const AppContainer = createAppContainer(AppNavigator);
 
 const App = () => {
   const [state, setState] = useState({
-    remainingSeconds: 1200,
+    remainingSeconds: 2,
     isRunning: false,
-    selectedMinutes: '20',
+    selectedMinutes: '1',
 
     target: '4',
     currentTarget: 0,
 
-    breakMinutes: '10',
+    breakMinutes: '1',
     isBreak: false,
   });
 
@@ -24,5 +24,4 @@ const App = () => {
     </TimerContext.Provider>
   );
 };
-
 export default App;

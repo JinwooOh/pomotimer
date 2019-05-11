@@ -5,14 +5,18 @@ import styles from '../styles/styles';
 
 const TabNavigator = createBottomTabNavigator(
   {
-    TimerScreen,
+    Timer: TimerScreen,
     Setting,
   },
   {
     tabBarOptions: {
       style: {
-        backgroundColor: styles.container.backgroundColor,
+        backgroundColor: styles.button.borderColor,
+        paddingBottom: 10,
       },
+      activeTintColor: styles.container.backgroundColor,
+      inactiveTintColor: 'white',
+      labelStyle: { fontSize: 20 },
     },
   }
 );

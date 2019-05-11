@@ -8,7 +8,7 @@ export default function TargetInfo() {
   return (
     <View>
       <Text style={styles.targetInfoText}>
-        Today {state.currentTarget} of {state.target}
+        Today {state.currentTarget} of {state.target} 🍅
       </Text>
     </View>
   );

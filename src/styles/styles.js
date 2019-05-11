@@ -1,10 +1,13 @@
 import { StyleSheet, Platform, Dimensions } from 'react-native';
 
 const screen = Dimensions.get('window');
+const primary = '#FFC75F';
+const secondary = '#20887A';
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFC75F',
+    backgroundColor: primary,
   },
   timer: {
     flex: 1,
@@ -31,7 +34,7 @@ const styles = StyleSheet.create({
 
   button: {
     borderWidth: 10,
-    borderColor: '#20887A',
+    borderColor: secondary,
     width: screen.width / 2,
     height: screen.width / 2,
     borderRadius: screen.width / 2,
@@ -44,7 +47,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     fontSize: 45,
-    color: '#20887A',
+    color: secondary,
   },
   buttonTextStop: {
     color: '#C1554D',
@@ -74,9 +77,8 @@ const styles = StyleSheet.create({
   targetInfoText: {
     // flex: 1,
     // justifyContent: 'flex-end',
-    // marginBottom: 36,
     color: '#402E32',
-    fontSize: 24,
+    fontSize: 20,
   },
 });
 

@@ -28,15 +28,3 @@ const getSettingOptions = (
 };
 
 export default getSettingOptions;
-// {
-//   label: '10 minutes',
-//   value: '10',
-// },
-// {
-//   label: '20 minutes',
-//   value: '20',
-// },
-// {
-//   label: '30 minutes',
-//   value: '30',
-// },
